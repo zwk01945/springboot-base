@@ -1,0 +1,11 @@
+#################################### common config : ####################################
+server:
+  port: 5003
+spring:
+  application:
+    name: thread
+threadpool:
+  corepoolsize: 10
+  maxpoolsize: 10
+  queuecapacity: 10
+  keepaliveseconds: 10
