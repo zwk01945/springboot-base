@@ -1,4 +1,4 @@
-package com.example.thread.general;
+package com.example.thread.test;
 
 
 public class TestExecutor implements Runnable {

@@ -1,4 +1,4 @@
-package com.example.thread.general;
+package com.example.thread.test;
 
 
 import java.util.concurrent.Callable;

@@ -1,17 +1,13 @@
 package com.example.thread.controller;
 
-import com.example.thread.general.CountExector;
-import com.example.thread.general.TestExecutor;
+import com.example.thread.test.CountExector;
+import com.example.thread.test.TestExecutor;
 import com.example.thread.utils.ExecuteUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Future;
 
 @RestController
 @RequestMapping(value = "/api/v1")
