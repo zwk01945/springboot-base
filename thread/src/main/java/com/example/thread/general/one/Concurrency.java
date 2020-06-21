@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringRunner;
  * ClassName: Concurrency
  * Description: 串行执行和并发执行比较
  * date: 2020/6/19 15:33
- * @author zwk<br />
+ * @author Mr.zhang
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = ThreadApplication.class)
