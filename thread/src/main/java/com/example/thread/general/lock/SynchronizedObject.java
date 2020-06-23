@@ -1,0 +1,35 @@
+package com.example.thread.general.lock;
+
+/**
+ * ClassName: SynchronizedObject <br/>
+ * Description: 同步锁Bean
+ * date: 2020/6/23 16:35<br/>
+ *
+ * @author zwk<br />
+ */
+public class SynchronizedObject {
+
+    private long countParam = 100L;
+
+    /**
+     * 锁住当前对象
+     */
+    public void count(){
+        synchronized (this) {
+            while (countParam > 0) {
+                System.out.println(Thread.currentThread().getName() + "----------" + countParam);
+                countParam--;
+            }
+        }
+    }
+
+    /**
+     * 锁住方法
+     */
+    public synchronized void countmethod(){
+        while (countParam > 0) {
+            System.out.println(Thread.currentThread().getName() + "----------" + countParam);
+            countParam--;
+        }
+    }
+}

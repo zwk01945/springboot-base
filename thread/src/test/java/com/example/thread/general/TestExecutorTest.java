@@ -2,7 +2,6 @@ package com.example.thread.general;
 
 import com.example.thread.ThreadApplication;
 import com.example.thread.common.CustomeRejectedExecutionHandler;
-import com.example.thread.test.CountExector;
 import com.example.thread.test.TestExecutor;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -37,8 +36,6 @@ public class TestExecutorTest {
      */
     @Test
     public void countTest() {
-        CountExector countExector = new CountExector();
-        executorService.submit(countExector);
-        executorService.shutdown();
+
     }
 }

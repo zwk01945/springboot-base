@@ -1,6 +1,5 @@
 package com.example.thread.controller;
 
-import com.example.thread.test.CountExector;
 import com.example.thread.test.TestExecutor;
 import com.example.thread.utils.ExecuteUtils;
 import org.slf4j.Logger;
@@ -26,17 +25,6 @@ public class ApiController {
             e.printStackTrace();
         }
         return "ok";
-    }
-
-    @RequestMapping("/c")
-    public Integer executeCount() {
-        Integer result = null;
-        try {
-            result =(Integer) utils.submit(CountExector.class, new CountExector());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return result;
     }
 
 

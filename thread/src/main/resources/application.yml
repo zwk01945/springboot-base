@@ -4,8 +4,16 @@ server:
 spring:
   application:
     name: thread
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
 threadpool:
-  corepoolsize: 10
+  corepoolsize: 2
   maxpoolsize: 10
-  queuecapacity: 10
+  queuecapacity: 50
   keepaliveseconds: 10
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml

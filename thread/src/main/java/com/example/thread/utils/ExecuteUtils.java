@@ -44,7 +44,6 @@ public class ExecuteUtils<E> {
         if (e == null) throw new NullPointerException("creat obj is fail please check it...");
         Future<?> submit = null;
         logger.info("线程开始提交并处理------");
-        final long startTime = System.currentTimeMillis();
         if (e instanceof Runnable) {
             Runnable  runnable  =  (Runnable)e;
             submit = service.submit(runnable);
@@ -55,11 +54,12 @@ public class ExecuteUtils<E> {
         if (submit == null) throw new NullPointerException("return value is null");
         if (submit.isDone()) {
             service.shutdown();
-            logger.info("线程结束,共耗时:"+(System.currentTimeMillis()-startTime)/1000.0+"s");
         }
         return submit.get();
     }
 
-
+    public void execute(Runnable runnable){
+        service.execute(runnable);
+    }
 
 }
