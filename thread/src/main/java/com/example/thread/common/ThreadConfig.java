@@ -62,7 +62,7 @@ public class ThreadConfig {
     @Bean("threadPoolExecutor")
     public ExecutorService executorService() {
         logger.info("ThreadPool参数为:{},{},{},{}",corePoolSize,maxPoolSize,queueCapacity,keepAliveSeconds);
-        return new ThreadPoolExecutor(corePoolSize,maxPoolSize,keepAliveSeconds, TimeUnit.SECONDS,new CustomeBlockingQueue<>(queueCapacity),new CustomeRejectedExecutionHandler());
+        return new ThreadPoolExecutor(corePoolSize,maxPoolSize,keepAliveSeconds, TimeUnit.SECONDS,new ArrayBlockingQueue<>(queueCapacity),new CustomeRejectedExecutionHandler());
     }
 
 }

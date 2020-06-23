@@ -2,6 +2,7 @@ package com.example.thread.general.lock.work;
 
 import com.example.thread.general.lock.SynchronizedObject;
 import com.example.thread.general.lock.nonwork.PositionOne;
+import com.example.thread.utils.ExecuteUtils;
 
 /**
  * ClassName: PositionThree <br/>
@@ -20,7 +21,7 @@ public class PositionThree implements Runnable{
 
     @Override
     public void run() {
-        object.countmethod();
+        object.count();
     }
 
     public static void main(String[] args) {

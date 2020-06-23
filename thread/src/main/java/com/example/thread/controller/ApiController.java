@@ -1,6 +1,5 @@
 package com.example.thread.controller;
 
-import com.example.thread.test.TestExecutor;
 import com.example.thread.utils.ExecuteUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,17 +14,6 @@ public class ApiController {
     Logger logger = LoggerFactory.getLogger(ApiController.class);
     @Autowired
     ExecuteUtils utils;
-
-    @RequestMapping("/e")
-    public String execute() {
-        try {
-            Object submit = utils.submit(TestExecutor.class, new TestExecutor());
-            System.out.println(submit);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return "ok";
-    }
 
 
 }

@@ -15,12 +15,16 @@ public class SynchronizedObject {
      * 锁住当前对象
      */
     public void count(){
-        synchronized (this) {
-            while (countParam > 0) {
-                System.out.println(Thread.currentThread().getName() + "----------" + countParam);
-                countParam--;
+            while (true) {
+                synchronized (this){
+                    if (countParam > 0) {
+                        System.out.println(Thread.currentThread().getName() + "----------" + countParam);
+                        countParam--;
+                    } else {
+                        break;
+                    }
+                }
             }
-        }
     }
 
     /**

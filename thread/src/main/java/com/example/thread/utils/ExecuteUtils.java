@@ -15,7 +15,9 @@ import java.util.concurrent.Future;
 @Component
 public class ExecuteUtils<E> {
 
-    private static Logger logger = LoggerFactory.getLogger(ExecuteUtils.class);
+    public static Logger logger = LoggerFactory.getLogger(ExecuteUtils.class);
+
+    public static ThreadLocal<Long> time = new ThreadLocal<Long>();
 
     @Autowired
     @Qualifier("threadPoolExecutor")
@@ -44,6 +46,9 @@ public class ExecuteUtils<E> {
         if (e == null) throw new NullPointerException("creat obj is fail please check it...");
         Future<?> submit = null;
         logger.info("线程开始提交并处理------");
+        long start = System.currentTimeMillis();
+        time.set(start);
+        logger.info("开始时间: " + start);
         if (e instanceof Runnable) {
             Runnable  runnable  =  (Runnable)e;
             submit = service.submit(runnable);

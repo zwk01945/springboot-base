@@ -1,8 +1,12 @@
 package com.example.thread.general.one;
 
 import com.example.thread.ThreadApplication;
+import com.example.thread.general.lock.SynchronizedObject;
+import com.example.thread.general.lock.work.PositionThree;
+import com.example.thread.utils.ExecuteUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -17,7 +21,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class Concurrency {
     /** 控制循环次数 */
     private final long count = 50000000L;
-
+    @Autowired
+    ExecuteUtils utils;
     //并发
     private void concurrency() throws InterruptedException {
         long start = System.currentTimeMillis();
