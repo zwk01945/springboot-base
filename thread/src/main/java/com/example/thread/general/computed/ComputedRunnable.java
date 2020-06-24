@@ -1,5 +1,7 @@
 package com.example.thread.general.computed;
 
+import java.util.concurrent.CountDownLatch;
+
 /**
  * @program: springboot-base
  * @description: 插入接口线程
@@ -9,13 +11,16 @@ package com.example.thread.general.computed;
 public class ComputedRunnable implements Runnable {
 
     OneBillon oneBillon = null;
+    private CountDownLatch latch = null;
 
-    public ComputedRunnable(OneBillon oneBillon) {
+    public ComputedRunnable(OneBillon oneBillon,CountDownLatch latch) {
         this.oneBillon = oneBillon;
+        this.latch = latch;
     }
 
     @Override
     public void run() {
         oneBillon.countInsert();
+        latch.countDown();
     }
 }

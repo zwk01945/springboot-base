@@ -30,7 +30,7 @@ public class OneBillon {
     public  void countInsert() {
         while (true){
             synchronized(this){
-                if (list.size() == 10000) {
+                if (list.size() == 500000) {
                     coustomerZtDao.insertList(list);
                     list.clear();
                 }

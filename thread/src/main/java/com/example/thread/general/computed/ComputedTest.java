@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
@@ -37,16 +38,19 @@ public class ComputedTest {
 
 
     @Test
-    public void execute(){
+    public void execute() throws InterruptedException {
+        CountDownLatch latch = new CountDownLatch(10);
         OneBillon oneBillon = new OneBillon(coustomerZtDao);
         //创建实现了Runnable接口对象，Thread对象当然也实现了Runnable接口
-        Thread t1 = new Thread(new ComputedRunnable(oneBillon),"a");
-        Thread t2 = new Thread(new ComputedRunnable(oneBillon),"b");
-        Thread t3 = new Thread(new ComputedRunnable(oneBillon),"c");
+        long start = System.currentTimeMillis();
+        for (int i = 0; i < 10; i++) {
+            Thread each = new Thread(new ComputedRunnable(oneBillon,latch),"thread--" + i);
+            //将线程放入池中进行执行
+            service.execute(each);
+        }
+        latch.await();
+        service.shutdown();
+        System.out.println(Thread.currentThread().getName() + " has finished. Spend Time = " + (System.currentTimeMillis() - start) / 1000 + "s");
 
-        //将线程放入池中进行执行
-        service.execute(t1);
-        service.execute(t2);
-        service.execute(t3);
     }
 }
