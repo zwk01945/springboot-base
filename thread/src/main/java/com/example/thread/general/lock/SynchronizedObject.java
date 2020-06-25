@@ -10,7 +10,6 @@ package com.example.thread.general.lock;
 public class SynchronizedObject {
 
     private long countParam = 100L;
-
     /**
      * 锁住当前对象
      */

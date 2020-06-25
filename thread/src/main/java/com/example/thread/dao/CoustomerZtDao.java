@@ -4,6 +4,7 @@ import com.example.thread.bean.CoustomerZt;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
+import java.util.Map;
 
 public interface CoustomerZtDao {
     int deleteByPrimaryKey(Integer id);
@@ -19,4 +20,8 @@ public interface CoustomerZtDao {
     int updateByPrimaryKey(CoustomerZt record);
 
     long insertList(@Param("ztList") List<CoustomerZt> ztList);
+
+    List<CoustomerZt> selectAll(Map<String,Object> map);
+
+    long selectCount();
 }

@@ -1,4 +1,4 @@
-package com.example.thread.general.computed;
+package com.example.thread.general.computed.insert;
 
 import java.util.concurrent.CountDownLatch;
 
@@ -20,7 +20,10 @@ public class ComputedRunnable implements Runnable {
 
     @Override
     public void run() {
-        oneBillon.countInsert();
-        latch.countDown();
+        try {
+            oneBillon.countInsert();
+        } finally {
+            latch.countDown();
+        }
     }
 }

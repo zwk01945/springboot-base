@@ -1,4 +1,4 @@
-package com.example.thread.general.computed;
+package com.example.thread.general.computed.insert;
 
 import com.example.thread.bean.CoustomerZt;
 import com.example.thread.dao.CoustomerZtDao;

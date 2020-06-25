@@ -22,7 +22,7 @@ public class ThreadDiffofLocal {
 
     public static void main(String[] args) {
         ThreadDiffofLocal diff = new ThreadDiffofLocal();
-        int threads = 10;
+        int threads = 50;
         CountDownLatch countDownLatch = new CountDownLatch(threads);
         for (int i = 0; i < threads; i++) {
             Thread thread = new Thread(new Runnable() {

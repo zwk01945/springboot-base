@@ -105,4 +105,16 @@
       #{zt.age,jdbcType=INTEGER}, #{zt.localAddress,jdbcType=VARCHAR})
     </foreach>
   </insert>
+
+  <select id="selectAll" parameterType="map" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List"></include>
+    from coustomer_zt
+    <if test="endPage != null and endPage != '' ">
+      limit #{start},#{endPage}
+    </if>
+  </select>
+
+  <select id="selectCount" resultType="java.lang.Long">
+    select count(1) from coustomer_zt
+  </select>
 </mapper>

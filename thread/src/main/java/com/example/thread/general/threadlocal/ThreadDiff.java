@@ -21,16 +21,16 @@ public class ThreadDiff {
     }
 
     public static void main(String[] args) {
-        int threads = 10;
+        int threads = 100;
         ThreadDiff diff = new ThreadDiff();
-        CountDownLatch countDownLatch = new CountDownLatch(threads);
+//        CountDownLatch countDownLatch = new CountDownLatch(threads);
         for (int i = 0; i < threads; i++) {
             Thread thread = new Thread(new Runnable() {
                 @Override
                 public void run() {
                     diff.setName(Thread.currentThread().getName());
-                    System.out.println(diff.getName());
-                    countDownLatch.countDown();
+                    System.out.println(Thread.currentThread().getName() + "-----" + diff.getName());
+//                    countDownLatch.countDown();
                 }
             });
             thread.start();

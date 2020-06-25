@@ -1,8 +1,11 @@
 package com.example.thread.general.computed;
 
 import com.example.thread.ThreadApplication;
+import com.example.thread.bean.CoustomerZt;
 import com.example.thread.dao.CoustomerZtDao;
-import com.example.thread.utils.ExecuteUtils;
+import com.example.thread.general.computed.insert.ComputedRunnable;
+import com.example.thread.general.computed.insert.OneBillon;
+import com.example.thread.general.computed.read.CountRead;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -11,11 +14,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
+import java.util.*;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
+
 
 /**
  * @program: springboot-base
@@ -36,9 +38,14 @@ public class ComputedTest {
     @Qualifier("threadPoolExecutor")
     private ExecutorService service;
 
+    public static volatile Map res = new HashMap();
 
+    /**
+     * 多线程插入数据
+     * @throws InterruptedException
+     */
     @Test
-    public void execute() throws InterruptedException {
+    public void executeInsert() throws InterruptedException {
         CountDownLatch latch = new CountDownLatch(10);
         OneBillon oneBillon = new OneBillon(coustomerZtDao);
         //创建实现了Runnable接口对象，Thread对象当然也实现了Runnable接口
@@ -51,6 +58,42 @@ public class ComputedTest {
         latch.await();
         service.shutdown();
         System.out.println(Thread.currentThread().getName() + " has finished. Spend Time = " + (System.currentTimeMillis() - start) / 1000 + "s");
+    }
 
+
+    /**
+     * 直接查询所有100W数据
+     */
+    @Test
+    public void executeReadByOne() {
+        long start = System.currentTimeMillis();
+        Map map = new HashMap();
+        List<CoustomerZt> coustomerZts =
+                coustomerZtDao.selectAll(map);
+        System.out.println((System.currentTimeMillis() - start));
+    }
+
+
+    /**
+     * 多线程读所有100W数据
+     */
+    @Test
+    public void executeRead() throws Exception {
+        long start = System.currentTimeMillis();
+        long counts = coustomerZtDao.selectCount();
+        System.out.println(counts);
+        //每页10W数据
+        long threadSize = 200000;
+        //所需线程数量
+        long threads = counts / threadSize == 0 ? counts / threadSize : (counts / threadSize) + 1;
+        System.out.println(threads);
+        CountDownLatch latch = new CountDownLatch((int) threads);
+        for (int i = 0; i < threads; i++) {
+            CountRead countRead = new CountRead(i * threadSize, threadSize, coustomerZtDao,latch);
+            service.submit(countRead);
+        }
+        latch.await();
+        service.shutdown();
+        System.out.println(System.currentTimeMillis() - start);
     }
 }
