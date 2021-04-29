@@ -4,228 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b26ede81-d4dc-4277-b864-72b9211f2d96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/base/BaseApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/base/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/base/date/DateConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/base/date/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/base/file/FileConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/base/file/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/base/propertie/ImageProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/base/propertie/UploadProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/map/MapApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/map/Utils/PrintEach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/map/concurrentHashMap/MultiConcurrentHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/map/hashmap/MultiHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/queuestack/QueuestackApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/ThreadApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/bean/CoustomerZt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/common/CustomeBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/common/CustomeRejectedExecutionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/common/ThreadConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/controller/ApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/dao/CoustomerZtDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/computed/ComputedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/computed/computed.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/computed/insert/ComputedRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/computed/insert/OneBillon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/computed/read/CountRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/four/DaemonThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/four/Interrupted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/four/MultiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/four/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/four/ThreadStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/four/ThreadState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/lock/SynchronizedObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/lock/nonwork/PositionOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/lock/nonwork/PositionTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/lock/work/PositionThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/one/Concurrency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/threadlocal/ThreadDiff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/general/threadlocal/ThreadDiffofLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/basic/thread/utils/ExecuteUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/resources/mapper/CoustomerZtDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/resources/plan/Plan.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/resources/sys.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/resources/thread/img/thread/process.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/resources/thread/img/thread/state.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/resources/thread/img/thread/threadContext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/resources/thread/img/thread/threadpool-entity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/resources/thread/readme/拒绝策略.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/resources/thread/readme/线程基础.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/resources/thread/readme/线程通用.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/resources/thread/readme/线程锁.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/resources/thread/static/test.js" afterDir="false" />
+    <list default="true" id="b26ede81-d4dc-4277-b864-72b9211f2d96" name="Default Changelist" comment="&quot;目录调整&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_35.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_35.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_35.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_35.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/example/base/BaseApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/example/base/config/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/example/base/date/DateConstant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/example/base/date/DateUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/example/base/file/FileConstant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/example/base/file/FileUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/example/base/propertie/ImageProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/example/base/propertie/UploadProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/resources/sys.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/src/main/java/com/example/map/MapApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/src/main/java/com/example/map/Utils/PrintEach.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/src/main/java/com/example/map/concurrentHashMap/MultiConcurrentHash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/src/main/java/com/example/map/hashmap/MultiHash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/src/main/resources/readme/ConcurrentHashMap.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/src/main/resources/readme/HashMap.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/src/test/java/com/example/map/MapApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/queuestack/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/queuestack/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/queuestack/src/main/java/com/example/queuestack/QueuestackApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/queuestack/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/queuestack/src/test/java/com/example/queuestack/QueuestackApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/ThreadApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/bean/CoustomerZt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/common/CustomeBlockingQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/common/CustomeRejectedExecutionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/common/ThreadConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/controller/ApiController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/dao/CoustomerZtDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/computed/ComputedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/computed/computed.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/computed/insert/ComputedRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/computed/insert/OneBillon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/computed/read/CountRead.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/four/DaemonThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/four/Interrupted.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/four/MultiThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/four/Priority.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/four/ThreadStart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/four/ThreadState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/lock/SynchronizedObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/lock/nonwork/PositionOne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/lock/nonwork/PositionTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/lock/work/PositionThree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/one/Concurrency.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/threadlocal/ThreadDiff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/general/threadlocal/ThreadDiffofLocal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/test/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/com/example/thread/utils/ExecuteUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/resources/img/thread/process.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/resources/img/thread/state.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/resources/img/thread/threadContext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/resources/img/thread/threadpool-entity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/resources/mapper/CoustomerZtDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/resources/plan/Plan.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/resources/readme/拒绝策略.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/resources/readme/线程基础.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/resources/readme/线程通用.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/resources/readme/线程锁.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/resources/static/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/test/java/com/example/thread/general/TestExecutorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/java/com/basic/queuestack/QueuestackApplication.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -265,9 +50,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/basic/pom.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34791666" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -288,7 +73,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadState">
+  <component name="RunManager" selected="Application.SimpleFactory">
     <configuration name="MultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -297,6 +82,21 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.basic.thread.general.four.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.basic.model.SimpleFactory" />
+      <module name="basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.basic.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,17 +113,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -435,11 +224,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MultiThread" />
+      <item itemvalue="Application.SimpleFactory" />
+      <item itemvalue="Application.ThreadState" />
+      <item itemvalue="JUnit.Priority.testPriority" />
+      <item itemvalue="JUnit.ThreadState.testThreadState" />
+      <item itemvalue="Spring Boot.BaseApplication" />
+      <item itemvalue="Spring Boot.MapApplication" />
+      <item itemvalue="Spring Boot.QueuestackApplication" />
+      <item itemvalue="Spring Boot.ThreadApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadState" />
+        <item itemvalue="Application.SimpleFactory" />
         <item itemvalue="JUnit.ThreadState.testThreadState" />
         <item itemvalue="JUnit.Priority.testPriority" />
+        <item itemvalue="Application.ThreadState" />
         <item itemvalue="Application.MultiThread" />
       </list>
     </recent_temporary>
@@ -461,8 +262,17 @@
       <workItem from="1592692652518" duration="5513000" />
       <workItem from="1592698250945" duration="3936000" />
       <workItem from="1619664592507" duration="385000" />
-      <workItem from="1619664994624" duration="1606000" />
+      <workItem from="1619664994624" duration="7218000" />
+      <workItem from="1619679733961" duration="127000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;目录调整&quot;">
+      <created>1619666860301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619666860301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,5 +289,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;目录调整&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;目录调整&quot;" />
   </component>
 </project>
