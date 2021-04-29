@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/queuestack/queuestack.iml" filepath="$PROJECT_DIR$/queuestack/queuestack.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/basic.iml" filepath="$PROJECT_DIR$/base/basic.iml" />
     </modules>
   </component>
 </project>
