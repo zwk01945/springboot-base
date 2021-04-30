@@ -1,10 +1,12 @@
 package com.basic.model;
 
 /**
- * 华为产品的添加删除和修改
+ * Huawei产品增加和删除以及修改主题
  * @author Administrator
  */
 public class HuaWeiProductOption implements ProductOption{
+
+
     @Override
     public long addProduct(Object obj) {
         System.out.println("HuaWei添加产品");
