@@ -1,9 +1,8 @@
 package com.basic.model.decorator;
 
-
 import com.basic.model.ProductInfo;
-
 import java.util.Map;
+
 
 /**
  * 抽象装饰
